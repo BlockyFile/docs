@@ -8,7 +8,7 @@ This guide will walk you through the steps to download and use the BlockyFile pr
 
 ## 1. Configuration
 
-1. Download the BlockyFile program from the [official github's download page](https://github.com/BlockyFile/BFY-Data-Uploader/releases).
+1. Download the BFY Data Uploader program from the [official github's download page](https://github.com/BlockyFile/BFY-Data-Uploader/releases).
 2. Open the `.env` file using a text editor.
 3. Enter your public and private keys in their respective fields in the following format:
 

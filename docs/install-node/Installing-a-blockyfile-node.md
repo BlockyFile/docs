@@ -16,7 +16,7 @@ Make sure you meet the minimum system requirements to ensure an optimal experien
 
 ## Node Installation
 
-1. Download the latest version of Geth from the official GitHub repository.
+1. Download the latest version of Geth from the official GitHub repository. You can find the download link [here](https://github.com/BlockyFile/go-BFY/releases).
 2. Once the download is complete, extract the compressed file.
 3. Inside the extracted folder, you will also find the `testnet_genesis.json` file.
 
