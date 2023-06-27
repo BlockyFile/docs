@@ -42,11 +42,11 @@ Next, execute the following command to start the BlockyFile node:
 
 For Windows:
 ```bash
-geth.exe --rpc.gascap 0 --rpc.evmtimeout 120s --miner.gaslimit 220000000 --networkid 171 --datadir path_to_store_files/ --http --http.addr 0.0.0.0 --http.api admin,eth,miner,net,txpool,personal,web3  --http.corsdomain "*" --http.vhosts "*" --http.port 8545 --syncmode full
+geth.exe --rpc.gascap 0 --rpc.evmtimeout 120s --networkid 171 --datadir path_to_store_files/ --http --http.addr 0.0.0.0 --http.api eth,miner,net,txpool,web3  --http.corsdomain "*" --http.vhosts "*" --http.port 8545 --syncmode full --bootnodes=enode://f2d8ec51e33404afe16f1c9cb237e2843d9d651498554d1ab02a17b57f0c30b9f81b73372273d86b959ad1265d3bed8eb8f3b5b2e0d6c9a932a212b026abf09f@138.201.56.61:30333,enode://9e343d14bd2559206f0fc741a0c2640bcf991ebfff64275df85e76cd63e119b47a507bf157dd06c48a4cb203a8bfdf81564e2e09e98cd4558b9836f221b48870@epicmario71.ddns.net:30333
 ```
 For Linux:
 ```bash
-./geth --rpc.gascap 0 --rpc.evmtimeout 120s --miner.gaslimit 220000000 --networkid 171 --datadir path_to_store_files/ --http --http.addr 0.0.0.0 --http.api admin,eth,miner,net,txpool,personal,web3 --http.corsdomain "*" --http.vhosts "*" --http.port 8545 --syncmode full
+./geth --rpc.gascap 0 --rpc.evmtimeout 120s --networkid 171 --datadir path_to_store_files/ --http --http.addr 0.0.0.0 --http.api eth,miner,net,txpool,web3 --http.corsdomain "*" --http.vhosts "*" --http.port 8545 --syncmode full --bootnodes=enode://f2d8ec51e33404afe16f1c9cb237e2843d9d651498554d1ab02a17b57f0c30b9f81b73372273d86b959ad1265d3bed8eb8f3b5b2e0d6c9a932a212b026abf09f@138.201.56.61:30333,enode://9e343d14bd2559206f0fc741a0c2640bcf991ebfff64275df85e76cd63e119b47a507bf157dd06c48a4cb203a8bfdf81564e2e09e98cd4558b9836f221b48870@epicmario71.ddns.net:30333
 ```
 
 Customize the command parameters according to your needs. For example, you can modify the IP address, port, and other configuration parameters as desired.

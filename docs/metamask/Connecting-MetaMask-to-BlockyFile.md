@@ -14,7 +14,7 @@ To use MetaMask with BlockyFile, follow the instructions below to successfully c
 6. Fill in the following fields with the appropriate data:
    - **Name**: BlockyFile
    - **RPC URL**: https://node1.blockyfile.org
-   - **Chain ID**: 171 or 17171 for the testnet
+   - **Chain ID**: 171
    - **Currency Symbol**: BFY
    - **Explorer URL**: https://explorer.blockyfile.org/
 7. Click on "Save" to save the configuration for the new network.
