@@ -66,6 +66,21 @@ To retrieve the file in JSON format using the command line, you can utilize the 
 
 By using `curl` or `wget` with the JSON API URL, you can retrieve the file in JSON format containing the file details, including the data encoded in base64 or in a format chosen by the user.
 
+## Opening Files with Password
+
+If you have uploaded a file with a password, you can open it using the following link format:
+
+`https://api.blockyfile.org/password/?contract_address=<contract_address>&password=<password>`
+
+Replace `<contract_address>` with the actual contract address obtained from Step 1, and `<password>` with the password you set for the file.
+
+For example:
+
+`https://api.blockyfile.org/password/?contract_address=0x123abc...&password=Password`
+
+Remember to replace `0x123abc...` with your contract address and `Password` with your actual password.
+
+
 ## Using Your Own Customized APIs
 
 1. If you want to use your own customized APIs, you can set up your local server and compose the API request URL as follows: `localhost:8080/v1/?contract_address=<contract_address>`

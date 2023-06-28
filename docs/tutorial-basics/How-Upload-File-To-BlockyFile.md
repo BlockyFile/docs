@@ -9,7 +9,7 @@ This guide will walk you through the steps to download and use the BlockyFile pr
 ## 1. Configuration
 
 1. Download the BFY Data Uploader program from the [official github's download page](https://github.com/BlockyFile/BFY-Data-Uploader/releases).
-2. Open the `.env` file using a text editor.
+2. Open the `.env.example` file using a text editor.
 3. Enter your public and private keys in their respective fields in the following format:
 
 PUBLIC_KEY = "your_public_key"
@@ -18,15 +18,17 @@ PRIVATE_KEY = "your_private_key"
 
 Make sure to keep the quotes around the keys and not share them with anyone.
 
+4. Rename the `.env.example` file to `.env`.
+
 ## 2. Running the Program
 
-1. Run the executable file `blockyfile.exe` on your operating system.
+1. Run the executable file `main.exe` on your operating system.
 2. The BlockyFile application will open, and you will be ready to upload your file to the blockchain.
 
 ## 3. File Upload
 
-1. Select the file you want to upload using the "Browse" or "Select file" button in the BlockyFile application. It is recommended to use files below 20 MB for a better experience.
-2. Choose the desired encoding option between "Base64" or "Base64 + Password". The "Base64 + Password" option will protect the file so that only those with the password can read it on the blockchain.
+1. Choose the desired encoding option between "Base64" or "Base64 + Password". The "Base64 + Password" option will protect the file so that only those with the password can read it on the blockchain.
+2. Select the file you want to upload using the "Browse" or "Select file" button in the BlockyFile application. It is recommended to use files below 20 MB for a better experience.
 3. Click the "Upload" button to initiate the file upload process to the blockchain.
 
 ## 4. Receiving the Contract
